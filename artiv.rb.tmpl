@@ -1,11 +1,14 @@
 class Artiv < Formula
   desc "A version control system to manage large files."
   homepage "https://github.com/InfuseAI/ArtiV"
-  url "URL"
-  sha256 "SHA256"
+  url "https://github.com/InfuseAI/ArtiV.git",
+      tag:      "ARTIV_TAG"
   license "Apache-2.0"
 
+  depends_on "go" => :build
+
   def install
-    bin.install "art"
+    system "make", "build", "VERSION=ARTIV_TAG"
+    bin.install "bin/art"
   end
 end

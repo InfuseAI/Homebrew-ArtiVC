@@ -9,6 +9,5 @@ Homebrew formula for https://github.com/InfuseAI/ArtiV
 2. Push the change
 3. Check the formula
    ```
-   brew update
-   cat $(brew --repository)/Library/Taps/infuseai/homebrew-artiv/Formula/artiv.rb
+   brew reinstall artiv
    ```   
