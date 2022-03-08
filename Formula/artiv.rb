@@ -8,6 +8,9 @@ class Artiv < Formula
   depends_on "go" => :build
 
   def install
+    # Don't dirty the git tree
+    rm_rf ".brew_home"
+
     system "make", "build", "VERSION=v0.3.0"
     bin.install "bin/art"
   end
