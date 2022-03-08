@@ -1,0 +1,2 @@
+update:
+	@./update-release.sh
