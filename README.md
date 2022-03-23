@@ -1,5 +1,5 @@
 # Homebrew-ArtiV
-Homebrew formula for https://github.com/InfuseAI/ArtiV
+Homebrew formula for https://github.com/InfuseAI/ArtiVC
 
 # Release Process
 1. Update to the latest release
@@ -9,5 +9,5 @@ Homebrew formula for https://github.com/InfuseAI/ArtiV
 2. Push the change
 3. Check the formula
    ```
-   brew reinstall artiv
+   brew reinstall artivc
    ```   
