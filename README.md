@@ -1,4 +1,4 @@
-# Homebrew-ArtiV
+# Homebrew-ArtiVC
 Homebrew formula for https://github.com/InfuseAI/ArtiVC
 
 # Release Process
