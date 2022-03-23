@@ -1,4 +1,4 @@
-class ArtiVC < Formula
+class Artivc < Formula
   desc "A version control system to manage large files."
   homepage "https://github.com/InfuseAI/ArtiVC"
   url "https://github.com/InfuseAI/ArtiVC.git",
